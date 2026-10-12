@@ -6,8 +6,8 @@ import { defineConfig } from 'vite';
 export default defineConfig({
 	// Puerto apartado para este proyecto (mismo en local y donde se despliegue).
 	// strictPort: si está ocupado, falla en vez de brincar a otro puerto en silencio.
-	server: { port: 4600, strictPort: true },
-	preview: { port: 4600, strictPort: true },
+	server: { port: 2020, strictPort: true },
+	preview: { port: 2020, strictPort: true },
 	plugins: [
 		tailwindcss(),
 		sveltekit({
